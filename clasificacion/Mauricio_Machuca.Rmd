@@ -6,6 +6,10 @@ output: pdf_document
 ---
 #Carga de librerias
 ```{r}
+install.packages("RWeka")
+install.packages("rJava")
+install.packages("rpart")
+install.packages("rpart.plot")
 library("RWeka")
 library("rpart")
 library("rpart.plot")
